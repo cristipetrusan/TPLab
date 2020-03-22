@@ -6,16 +6,12 @@
 #include <stdio.h>
 int main()
 {
-	int a, b, *x, *y, aux;
+	int a, b, *aux;
 	scanf("%d %d", &a, &b);
-	
-	x = &a;
-	y = &b;
-
-	aux = *x;
-	*x = *y;
-	*y = aux;
-
+	aux = (int*)malloc(sizeof(int));
+	*aux = a;
+	a = b;
+	b = *aux;
 	printf("x = %d\ny = %d\n", a, b);
 	system("pause");
 	return 0;
