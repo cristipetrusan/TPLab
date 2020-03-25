@@ -3,7 +3,7 @@
 //5. Sa se realizeze un program care sa prezinte diferenta dintre
 //urmatoarele, incrementarea / decrementarea valorii pointerului,
 //precum si incrementarea / decrementarea pointerului care ia
-//adresa index - ului “0” a unui vector oarecare.
+//adresa index - ului â€œ0â€ a unui vector oarecare.
 //Petrusan George-Cristian L4 - prezenta
 int main()
 {
